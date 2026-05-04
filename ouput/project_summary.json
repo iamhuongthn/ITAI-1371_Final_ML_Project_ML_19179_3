@@ -1,0 +1,184 @@
+{
+  "dataset_shape": [
+    19158,
+    14
+  ],
+  "split_counts": {
+    "train": 13410,
+    "validation": 2874,
+    "test": 2874
+  },
+  "numeric_features": [
+    "city_development_index",
+    "relevent_experience",
+    "education_level",
+    "experience",
+    "company_size",
+    "last_new_job",
+    "training_hours_log1p"
+  ],
+  "categorical_features": [
+    "gender",
+    "enrolled_university",
+    "major_discipline",
+    "company_type"
+  ],
+  "top3_models_by_validation_roc_auc": [
+    "Gradient Boosting",
+    "Random Forest",
+    "Decision Tree"
+  ],
+  "bayesian_ridge_ensemble_coefficients": {
+    "Gradient Boosting": 0.7442900548414836,
+    "Random Forest": 0.21346839783703958,
+    "Decision Tree": 0.12918905654381688
+  },
+  "bayesian_ridge_ensemble_intercept": -0.08619140355321792,
+  "best_model_by_validation": "BayesianRidge Probability Ensemble (Top 3)",
+  "combined_metrics": [
+    {
+      "model": "Logistic Regression",
+      "split": "Validation",
+      "accuracy": 0.7098,
+      "precision": 0.4439,
+      "recall": 0.6457,
+      "f1_score": 0.5261,
+      "roc_auc": 0.7356
+    },
+    {
+      "model": "Logistic Regression",
+      "split": "Test",
+      "accuracy": 0.707,
+      "precision": 0.441,
+      "recall": 0.6578,
+      "f1_score": 0.528,
+      "roc_auc": 0.7358
+    },
+    {
+      "model": "Decision Tree",
+      "split": "Validation",
+      "accuracy": 0.7119,
+      "precision": 0.4559,
+      "recall": 0.8006,
+      "f1_score": 0.581,
+      "roc_auc": 0.7869
+    },
+    {
+      "model": "Decision Tree",
+      "split": "Test",
+      "accuracy": 0.7001,
+      "precision": 0.4432,
+      "recall": 0.7961,
+      "f1_score": 0.5694,
+      "roc_auc": 0.7776
+    },
+    {
+      "model": "Random Forest",
+      "split": "Validation",
+      "accuracy": 0.7665,
+      "precision": 0.5252,
+      "recall": 0.6695,
+      "f1_score": 0.5886,
+      "roc_auc": 0.8011
+    },
+    {
+      "model": "Random Forest",
+      "split": "Test",
+      "accuracy": 0.7679,
+      "precision": 0.5259,
+      "recall": 0.6955,
+      "f1_score": 0.5989,
+      "roc_auc": 0.7908
+    },
+    {
+      "model": "Gradient Boosting",
+      "split": "Validation",
+      "accuracy": 0.7874,
+      "precision": 0.6008,
+      "recall": 0.4407,
+      "f1_score": 0.5084,
+      "roc_auc": 0.8064
+    },
+    {
+      "model": "Gradient Boosting",
+      "split": "Test",
+      "accuracy": 0.7717,
+      "precision": 0.5551,
+      "recall": 0.4218,
+      "f1_score": 0.4794,
+      "roc_auc": 0.7902
+    },
+    {
+      "model": "K-Nearest Neighbors",
+      "split": "Validation",
+      "accuracy": 0.7665,
+      "precision": 0.5466,
+      "recall": 0.3766,
+      "f1_score": 0.4459,
+      "roc_auc": 0.7412
+    },
+    {
+      "model": "K-Nearest Neighbors",
+      "split": "Test",
+      "accuracy": 0.7658,
+      "precision": 0.5413,
+      "recall": 0.3939,
+      "f1_score": 0.4559,
+      "roc_auc": 0.7307
+    },
+    {
+      "model": "Support Vector Classifier",
+      "split": "Validation",
+      "accuracy": 0.7345,
+      "precision": 0.4764,
+      "recall": 0.6485,
+      "f1_score": 0.5493,
+      "roc_auc": 0.7556
+    },
+    {
+      "model": "Support Vector Classifier",
+      "split": "Test",
+      "accuracy": 0.7265,
+      "precision": 0.4649,
+      "recall": 0.6466,
+      "f1_score": 0.5409,
+      "roc_auc": 0.746
+    },
+    {
+      "model": "Average Ensemble (Top 3)",
+      "split": "Validation",
+      "accuracy": 0.7853,
+      "precision": 0.5644,
+      "recall": 0.6109,
+      "f1_score": 0.5867,
+      "roc_auc": 0.8024
+    },
+    {
+      "model": "Average Ensemble (Top 3)",
+      "split": "Test",
+      "accuracy": 0.7797,
+      "precision": 0.5521,
+      "recall": 0.6145,
+      "f1_score": 0.5816,
+      "roc_auc": 0.7901
+    },
+    {
+      "model": "BayesianRidge Probability Ensemble (Top 3)",
+      "split": "Validation",
+      "accuracy": 0.7916,
+      "precision": 0.605,
+      "recall": 0.4742,
+      "f1_score": 0.5317,
+      "roc_auc": 0.8066
+    },
+    {
+      "model": "BayesianRidge Probability Ensemble (Top 3)",
+      "split": "Test",
+      "accuracy": 0.7745,
+      "precision": 0.5582,
+      "recall": 0.4553,
+      "f1_score": 0.5015,
+      "roc_auc": 0.7922
+    }
+  ]
+}

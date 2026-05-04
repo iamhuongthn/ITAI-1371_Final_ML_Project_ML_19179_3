@@ -1,0 +1,13 @@
+model,split,accuracy,precision,recall,f1_score,roc_auc
+Logistic Regression,Validation,0.7098,0.4439,0.6457,0.5261,0.7356
+Logistic Regression,Test,0.707,0.441,0.6578,0.528,0.7358
+Decision Tree,Validation,0.7119,0.4559,0.8006,0.581,0.7869
+Decision Tree,Test,0.7001,0.4432,0.7961,0.5694,0.7776
+Random Forest,Validation,0.7665,0.5252,0.6695,0.5886,0.8011
+Random Forest,Test,0.7679,0.5259,0.6955,0.5989,0.7908
+Gradient Boosting,Validation,0.7874,0.6008,0.4407,0.5084,0.8064
+Gradient Boosting,Test,0.7717,0.5551,0.4218,0.4794,0.7902
+K-Nearest Neighbors,Validation,0.7665,0.5466,0.3766,0.4459,0.7412
+K-Nearest Neighbors,Test,0.7658,0.5413,0.3939,0.4559,0.7307
+Support Vector Classifier,Validation,0.7345,0.4764,0.6485,0.5493,0.7556
+Support Vector Classifier,Test,0.7265,0.4649,0.6466,0.5409,0.746

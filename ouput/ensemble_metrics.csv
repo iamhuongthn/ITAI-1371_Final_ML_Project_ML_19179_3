@@ -1,0 +1,5 @@
+model,split,accuracy,precision,recall,f1_score,roc_auc
+Average Ensemble (Top 3),Validation,0.7853,0.5644,0.6109,0.5867,0.8024
+Average Ensemble (Top 3),Test,0.7797,0.5521,0.6145,0.5816,0.7901
+BayesianRidge Probability Ensemble (Top 3),Validation,0.7916,0.605,0.4742,0.5317,0.8066
+BayesianRidge Probability Ensemble (Top 3),Test,0.7745,0.5582,0.4553,0.5015,0.7922

@@ -1,0 +1,16 @@
+feature,importance
+city_development_index,0.6680609479371635
+company_size,0.11861108423075181
+education_level,0.05039725787213124
+relevent_experience,0.0469055315968105
+experience,0.03027776583100967
+enrolled_university_Full time course,0.029390767719514134
+training_hours_log1p,0.01803446424749041
+company_type_Pvt Ltd,0.01132523030198992
+last_new_job,0.009374360882327657
+enrolled_university_no_enrollment,0.006328234651432815
+company_type_Funded Startup,0.00275906395493777
+company_type_Other,0.0020581545866900984
+company_type_Public Sector,0.0011211779591279033
+gender_Male,0.0011059642926544544
+gender_Female,0.0009247885161501963

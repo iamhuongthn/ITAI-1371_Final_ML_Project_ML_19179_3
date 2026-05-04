@@ -1,0 +1,4 @@
+model,bayesian_ridge_coefficient
+Gradient Boosting,0.7442900548414836
+Random Forest,0.21346839783703958
+Decision Tree,0.12918905654381688
